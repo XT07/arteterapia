@@ -1,8 +1,9 @@
 body {
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 h1 {
     margin: 0;
@@ -13,10 +14,24 @@ p {
     font-size: 20px;
 }
 nav {
-    background-color: #F4A460;
+    background-color: #008080;
     color: white;
     text-align: center;
     padding: 20px;
+}
+.ceramica1 {
+    width: 250px;
+    height: 200px;
+    float: right;
+    margin-right: 400px;
+    border-radius: 10px;
+}
+.ceramica2 {
+    width: 225px;
+    height: 200px;
+    float: left;
+    margin-left: 400px;
+    border-radius: 10px;
 }
 .clear {
     clear: both;
@@ -25,12 +40,28 @@ nav {
     width: 50%;
     float: left;
 }
+.col2 {
+    margin: 0 auto;
+    width: 31%;
+    padding: 10px;
+    float: left;
+}
 .description {
     width: 50%;
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
-    background-color: #DEB887;
+    background-color: #c91f12;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.description2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #c23d34;
     padding: 10px;
     border-radius: 10px;
     color: white;
