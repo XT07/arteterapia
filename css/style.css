@@ -5,6 +5,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
+a {
+    text-decoration: none;
+}
 h1 {
     margin: 0;
     font-size: 30px;
